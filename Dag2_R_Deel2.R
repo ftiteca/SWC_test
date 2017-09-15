@@ -72,3 +72,9 @@ View(physicodiversiy)
 
 df.nona <- na.exclude(df)
 rowSums(is.na(df))
+
+
+
+
+
+
