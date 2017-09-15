@@ -59,4 +59,9 @@ p5 <- p4 + geom_line(aes(color = Reactor.phase))
 p5
 
 #### challenge ####
+#1: Diversity D0
+g1 <- ggplot(data=df,aes(x=Diversity...D0,y=Diversity...D1,fill=Reactor.phase)) 
+g1 <- g1 + geom_point(shape=21,size=4,alpha=.5)
+g1
 
+#2. Cell density
